@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Parallax Demo Site</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,300' rel='stylesheet' type='text/css'>
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+     <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css" />
+<script src="https://ajax.googleapis.com/aqjax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+     <script src="js/jquery.stellar.js"></script>
+    <script src="js/scrip.js"></script>
+    <script src="js/jquery.nicescroll.js"></script>
+    <script src="js/progressbar.js"></script>
+    <script src="http://requirejs.org/docs/release/2.2.0/minified/require.js"></script>
+
+</head>
+
+<body>
+<script src="https://code.jquery.com/jquery-1.10.2.min.js" integrity="sha256-C6CB9UYIS9UJeqinPHWTHVqh/E1uhG5Twh+Y5qFQmYg=" crossorigin="anonymous"></script>
+
+    <script>
+    $(document).ready(function(){
+  $('a[href*=#]').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
+    && location.hostname == this.hostname) {
+      var $target = $(this.hash);
+      $target = $target.length && $target
+      || $('[name=' + this.hash.slice(1) +']');
+      if ($target.length) {
+        var targetOffset = $target.offset().top;
+        $('html,body')
+        .animate({scrollTop: targetOffset}, 1000);
+       return false;
+      }
+    }
+  });
+});
+
+    </script>
+
+
+    <nav id="nav">
+
+        <div id="logo" onClick="location.href='index.html';"><img src="Images/icon.jpg"></img></div>
+
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+
+      <ul>
+
+          <li><a href="#wall_3">Our clients</a></li>
+        <li><a href="#wall_2">Completed projects</a></li>
+           <li><a href="#wall_1">Home</a></li>
+      </ul>
+
+</nav>
+    <!--
+
+   <div id="nav">
+       <div id="logo" onClick="location.href='index.html';"><img src="Images/logo.png"></div>
+
+
+   </div>
+   -->
+    <div id="wall_1" class="image" data-stellar-background-ratio="0.4" >
+
+   <div class="mainword">
+            <h7>50 YEARS</h7>
+       <h8>OF EXPERIENCE IN THE INDUSTRY</h8>
+        <p>We are committed to building a sustainable future by fostering a collaborative spirit that creates exceptional experiences, balanced relationships, and enhances a community’s built environment.</p>
+            </div>
+
+    <button id="xxx" onclick="location.href='about.html';"><div id="fff">About us</div></button>
+        <button id="xxx" onclick="location.href='contact.html';"><div id="fff">Contacts</div></button>
+                    </div>
+
+    <div id="content_1" class="content1">
+        <div class="col1">
+        <h1>Our mission</h1>
+        <p>We aim to make clients happy by selling the best products at the best prices, in a friendly, fun atmosphere. Our rating has remained at 100% with excellent and positive feedbacks. We are constantly adding new products.</p>
+            </div>
+        <div class="col2">
+        <h1>What we do </h1>
+        <p>With teams of experienced professionals we give multiple solutions to our clients around the world. Our professionals deliver high-touch services to help clients every step they take.</p>
+        </div>
+        <div class="col3">
+         <h1>Why choose us</h1>
+        <p>We have five values that have always contributed to our success; take pride, be passionate, never give up, work as a team and make it fun.</p>
+        </div>
+
+    </div>
+
+    <div id="wall_2" class="image2" data-stellar-background-ratio="0.4"  >
+
+    <h2><span class="headline">COMPLETED PROJECTS</span></h2>
+
+<div class="gallery">
+
+        <div class="img">
+  <a target="_blank" href="img_fjords.jpg">
+    <img src="Images/Audini%C5%B3%20ferma%20(Kauno%20r.)1-1400x900a.jpg" alt="Trolltunga Norway" width="300" height="200">
+  </a>
+  <div class="desc">Greenhouse in Germany</div>
+</div>
+
+<div class="img">
+  <a target="_blank" href="img_forest.jpg">
+    <img src="Images/namasvokietijoj.JPG" alt="Forest" width="600" height="400">
+  </a>
+  <div class="desc">House in Norway</div>
+</div>
+
+<div class="img">
+  <a target="_blank" href="img_lights.jpg">
+    <img src="Images/garazas.jpg" alt="Northern Lights" width="600" height="400">
+  </a>
+  <div class="desc">The contemporary-style garage</div>
+</div>
+        <div class="img">
+  <a target="_blank" href="img_lights.jpg">
+    <img src="Images/ofisas.jpg" alt="Northern Lights" width="600" height="400">
+  </a>
+  <div class="desc">Google office</div>
+</div>
+
+        </div>
+
+    </div>
+
+
+
+
+    <div id="content_2" class="content" >
+
+        <h1>Heading1</h1>
+       <strong>ProgressBar.js circle</strong>
+
+        <div id="container"></div>
+
+    </div>
+
+    <div id="wall_3" class="image3" data-stellar-background-ratio="0.4"  >
+        <h2><span class="headline">OUR CLIENTS</span></h2>
+        <h5>Ask for a feedback</h5>
+
+
+<div class="imgg">
+  <a target="_blank" href="img_forest.jpg">
+    <img src="Images/clients/elephant_one_transparent1.png" alt="Elephant" width="200" height="200">
+  </a>
+</div>
+        <div class="imgg">
+  <a target="_blank" href="img_forest.jpg">
+    <img src="Images/clients/logostarbucks.png" alt="starbucks" width="200" height="200">
+  </a>
+</div>
+
+        <div id="fb">
+  <a target="_blank" href="img_forest.jpg">
+    <img src="Images/clients/picture14068913878423.png" alt="Forest" width="200" height="200">
+  </a>
+</div>
+        <div class="imgg">
+  <a target="_blank" href="img_forest.jpg">
+    <img src="Images/clients/fiverr-logo-new-.png" alt="Forest" width="200" height="200">
+  </a>
+
+</div>
+
+
+    </div>
+
+
+</body>
+</html>

@@ -1,0 +1,534 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.headline {
+
+line-height: 1.5em;
+color: bisque;
+font-size: 40px;
+font-family:'ProximaNovaBold';
+text-align: center;
+}
+h2:after
+{
+    margin-top:0px;
+    content:'';
+    display:block;
+    border:4px solid black;
+    
+}
+h6:after
+{
+
+    content:'';
+    display:block;
+    border:4px solid black;
+    
+}
+
+h2{
+    text-align: center;
+}
+
+h4{
+    line-height: 1.5em;
+color: bisque;
+font-size: 40px;
+font-family:'ProximaNovaBold';
+text-align: left;
+    
+}
+h5{
+    color: bisque;
+    font-size:30px;
+    font-family:sans-serif
+}
+
+
+h4:after
+{
+    margin-top:10px;
+    content:'';
+    display:block;
+    border:4px solid black;
+}
+
+.content1 h1{
+   font-family:'ProximaNovaBold';
+    text-align: center;
+}
+.content1 p{
+   font-family:Verdana;
+    text-align: left;
+}
+.image {
+
+    height: 1000px;
+    width: 100%;
+    background: #55e6c5;
+    z-index: 2;
+    }
+
+.image2 {
+    height: 750px;
+    width: 100%;
+    background: #55e6c5;
+    z-index: 2;
+    }
+
+
+.image3 {
+    height: 450px;
+    width: 100%;
+    background: #55e6c5;
+    z-index: 2;
+    }
+
+.content {
+   height: 300px;
+    width:100%;
+    background: white;
+    z-index: 2;
+}
+.content1 {
+    height: 250px;
+    width:100%;
+    background: white;
+}
+.col1 {
+    overflow: inherit;
+    float:left; 
+    width:20%;
+    margin-left:15%;
+}
+
+.col2 {
+    overflow: inherit;
+    float:left; 
+    width:20%; 
+    margin-left:5%;
+   
+}
+.col3 {
+    overflow: inherit;
+    float:left; 
+    width:20%; 
+    margin-left:5%;
+
+}
+
+
+#wall_1 {
+    background: url(../Images/crane1.jpg) repeat;
+    background-attachment: fixed;
+    margin-top:-20px;
+    
+}
+#wall_2 {
+    background: url(../Images/wall2.jpg) repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+  
+   
+}
+#wall_3 {
+    background: url(../Images/brick.jpg) repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+
+
+#nav {
+    opacity:0.7;
+    border-radius: 5px;
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    top:0;
+    left:0;
+    background: white;
+    z-index: 100;
+    -webkit-box-shadow:0px 60px 60px rgba(44,44,44,.3);
+    
+}
+#nav:hover{
+    cursor: pointer;
+    
+}
+#nav #logo {
+    opacity:1;
+    height: 60px;
+    width: 230px;
+    position: absolute;
+    top: 0;
+    bottom:0;
+    margin: auto 100px;
+}
+
+#nav #logo img {
+    height: 100%;
+    width: 100%;
+    
+}
+
+
+h1::first-letter {
+    font-size: 60px;
+    font-weight: 600;
+    color:#3cb0f8;
+}
+li::first-letter {
+    font-size: 35px;
+    color:#3cb0f8;
+}
+h2::first-letter {
+    font-size: 60px;
+    font-weight: 600;
+    color:#3cb0f8;
+}
+h4::first-letter {
+    font-size: 60px;
+    font-weight: 600;
+    color:#3cb0f8;
+}
+
+#menu {
+  position: fixed;
+  right: 0;
+  top: 50%;
+  width: 8em;
+  margin-top: -2.5em;
+}
+/* IMAGE GALLERY */
+.gallery{
+   margin-top: 100px; 
+    
+}
+div.img {
+    margin-left: 100px;
+    float: left;
+    height: 350px;
+    width: 350px;
+   
+    
+}	
+.image2 img:hover {
+   border-radius: 50%;
+  -webkit-transform: rotate(360deg);
+     -moz-transform: rotate(360deg);
+    
+       -o-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+          transform: rotate(360deg);
+   
+    
+}
+
+.image2 img {
+    border:1px solid #;
+-webkit-border-radius: 20px;
+-moz-border-radius: 20px;
+border-radius: 20px;
+    width: 350px;
+    height: 350px;
+ -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+    
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+    
+
+}
+.desc {
+    padding: 15px;
+    text-align: center;
+    color: bisque;
+    font-family: Verdana;
+    font-size:20px;
+    
+}
+/*BUTTONS*/
+
+#xxx {
+  
+  opacity: 0.7;
+  padding: 8px 10px;
+  border-radius: 10px;
+  color: black;
+  font-weight: bold;
+ 
+  margin:500px -600px 400px 740px;
+}
+
+#xxx:hover {
+   opacity: 0.9; 
+    cursor:pointer;
+}
+
+#fff {
+    font-family: helvetica, arial, sans-serif;
+    font-size: 26pt;
+    opacity: 1 !important;
+    color: rgba(0,0,0,0.5) !important;
+}
+
+.image3 img{
+    float:left;
+    
+    margin-left: 220px;
+    margin-top:40px;
+}
+
+
+#container {
+  margin: 20px;
+  width: 200px;
+  height: 200px;
+}
+ li {
+    float: right;
+	display: inline;
+     margin-top:8px;
+     text-decoration: none;
+}
+li a{
+
+padding: 32px 26px;
+text-decoration: none;
+font-size: 24px;
+font-family:'ProximaNovaBold';
+color: black;
+font-weight: bold;
+}
+li :hover{
+    background-color: bisque;
+}
+
+
+/*ABOUT*/
+#abt{
+  background: url(../Images/about.jpg);
+height: 970px;
+ background-attachment:fixed;
+     background-repeat: no-repeat;
+}
+h6{
+    top:140px;
+    position: relative;
+ font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    font-family: 'ProximaNovaBold';
+}
+.deze p{ 
+    font-family: 'ProximaNovaBold';
+    position:relative;
+    width: 900px;
+    font-size: 30px;
+    text-align: center;
+    top:160px;
+    left:500px;
+    color:white;
+}
+.deze2 h6{
+    top:240px;
+    position:relative;
+ font-size: 36px;
+    line-height: 48px;
+    font-family: 'ProximaNovaBold';
+}
+.deze2 p{ 
+    font-family: 'ProximaNovaBold';
+    position:relative;
+    width: 1600px;
+    font-size: 30px;
+    text-align: center;
+    top:260px;
+    left:150px;
+    color:white;
+}
+.mainword p{
+         font-family: 'ProximaNovaBold';
+    position:relative;
+    width: 1600px;
+    font-size: 30px;
+    text-align: center;
+    top:360px;
+    left:150px;
+    color:white;
+    }
+h7{
+
+    position:relative;
+    line-height: 48px;
+    font-family: 'ProximaNovaBold';
+    color:bisque;
+    font-size:70px;top:240px;left:800px;
+}
+h8{
+     position:relative;
+    line-height: 48px;
+    font-family: 'ProximaNovaBold';
+    color:bisque;
+    font-size:50px;top:280px;left:250px;
+}
+
+.active{
+    background-color: bisque;
+    
+}
+
+/* GOOGLE MAP */
+#googleMap{
+    position:relative;
+    margin-left: 480px;
+    margin-top: 200px;
+    width:1000px;
+    height:520px
+}
+
+#cnt{
+  background: url(../Images/contact.jpg);
+height: 970px;
+ background-attachment:fixed;
+     background-repeat: no-repeat;
+}
+
+.dezecnt p{ 
+    font-family: 'ProximaNovaBold';
+    position:relative;
+    width: 1000px;
+    font-size: 30px;
+    text-align: center;
+    top:160px;
+    left:480px;
+    color:white;
+}
+
+
+/*@MEDIA*/
+@media screen and (min-width: 750px) and (max-width: 790px){
+    .mainword p{
+        font-size:20px;
+        width:500px;
+        
+    }
+    #wall_1{
+        background-size: 180% 100%;
+    }
+   .image{
+       width:100%;
+       height: 100%;
+    }
+    #xxx{
+        margin:500px -1000px 200px 460px; 
+    }
+    .mainword h7{
+        font-size:40px;
+        margin-left:-500px;
+    }
+    .mainword h8{
+        font-size:30px;
+        margin-left:200px;
+    }
+    .content1 {
+    height: 450px;
+    width:100%;
+    background: white;
+}
+    
+.content1 h1{
+    font-size:25px;
+   width: 200px;
+    margin:20px;
+    margin-left:-25px
+}
+.content1 p{
+   font-family:Verdana;
+    text-align: center;
+}
+    div.img {
+    margin-left: 80px;
+    float: left;
+    height: 320px;
+    width: 250px;
+     
+}	
+    .image2 img {
+    border:1px solid #;
+-webkit-border-radius: 20px;
+-moz-border-radius: 20px;
+border-radius: 20px;
+    width: 250px;
+    height: 250px;
+ -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+    
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+    
+
+}
+.desc {
+    padding: 15px;
+    text-align: center;
+    color: bisque;
+    font-family: Verdana;
+    font-size:20px;
+    
+}
+    
+    .image2 {
+    height: 850px;
+    width: 100%;
+
+    }
+    .image3{
+        height: 1200px;
+    }
+    .image3 img{ 
+    margin-left: 270px;
+    margin-top:40px;
+}
+    
+#googleMap{
+    position:relative;
+    margin-left: 130px;
+    margin-top: 200px;
+    width:500px;
+    height:520px
+}
+    .dezecnt p{ 
+    font-family: 'ProximaNovaBold';
+    position:relative;
+    width: 500px;
+    font-size: 30px;
+    text-align: center;
+    left:130px;
+    color:white;
+}
+    
+    .deze p{ 
+    width: 500px;
+    font-size: 30px;
+    left:120px;
+
+}
+
+.deze2 p{ 
+    height: 650px;
+    width: 600px;
+    font-size: 30px;
+    left:90px;
+}
+    #abt{
+height:1300px;
+}
+    
+}
